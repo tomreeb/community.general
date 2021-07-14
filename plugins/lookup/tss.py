@@ -120,7 +120,7 @@ sdk_is_missing = False
 try:
     from thycotic.secrets.server import (
         SecretServer,
-        SecretServerAccessError,
+        SecretServerClientError,
         SecretServerError,
     )
 except ImportError:
